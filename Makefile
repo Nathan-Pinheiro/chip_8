@@ -4,7 +4,7 @@ COMPILER = gcc
 COMPILER_FLAGS = -I include
 LIBRARIES = -L lib -lmingw32 -lSDL2main -lSDL2
 
-SOURCE_FILES_LIST = ""
+SOURCE_FILES_LIST = 
 OBJECT_FILE_LIST =  $(addprefix build/, $(notdir $(SOURCE_FILES_LIST:.c=.o)))
 
 # function to find a source file given the object file associated
